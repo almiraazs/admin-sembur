@@ -32,7 +32,7 @@ function App() {
       <div className="flex min-h-screen">
         <Sidebar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
 
-        <div className="flex-1 flex flex-col lg:ml-64 transition-all duration-300">
+        <div className="w-full flex-1 flex flex-col lg:ml-64 transition-all duration-300">
           <header className="bg-white p-4 shadow-md flex items-center justify-between lg:hidden">
             <button onClick={toggleSidebar} className="p-2 text-gray-600 hover:text-gray-900">
               <Bars3Icon className="h-6 w-6" />
